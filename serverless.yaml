@@ -2,7 +2,7 @@ component: scf
 name: ap-guangzhou_react-notion-x-minimal
 inputs:
   name: react-notion-x-minimal
-  src: ./src
+  src: ./
   type: web
   runtime: Nodejs16.13
   namespace: default
