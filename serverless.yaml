@@ -1,0 +1,30 @@
+component: scf
+name: ap-guangzhou_react-notion-x-minimal
+inputs:
+  name: react-notion-x-minimal
+  src:
+    src: ./src
+  type: web
+  runtime: Nodejs16.13
+  namespace: default
+  region: ap-guangzhou
+  memorySize: 512
+  timeout: 3
+  apigw:
+    parameters:
+      endpoints:
+        - apiId: api-9bgdb626
+          enableCORS: true
+          function:
+            functionQualifier: $DEFAULT
+            isIntegratedResponse: true
+          isBase64Encoded: false
+          method: ANY
+          path: /notion
+          serviceTimeout: 15
+      environment: release
+      protocols:
+        - http
+        - https
+      serviceId: service-bmzrt4oa
+      serviceName: SELF_APIGW
