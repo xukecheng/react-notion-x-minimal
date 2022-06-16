@@ -4,7 +4,7 @@ name: react-notion-x-minimal
 inputs:
   src:
     dist: ./
-    hook: npm install && npm run build
+    hook: npm run build
     exclude:
       - .env
   faas:
