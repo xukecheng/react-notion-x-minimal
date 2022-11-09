@@ -15,4 +15,3 @@ module.exports = withBundleAnalyzer({
     formats: ['image/avif', 'image/webp']
   }
 })
-
